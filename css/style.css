@@ -410,7 +410,17 @@ a{ /*для всех ссылок*/
     padding: 70px 32px;
 }
 .customers__icon {
+    padding: 0 0 20px 93px;
 }
+
+.circle {
+    height: 130px;
+    width: 130px;
+    background-color: black;
+    border-radius: 50%;
+    padding: 30px 0 0 13px;
+}
+
 .customer__name {
     text-align: center;
     font-weight: 900;
