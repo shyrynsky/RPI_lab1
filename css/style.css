@@ -272,6 +272,13 @@ a{ /*для всех ссылок*/
     margin-bottom: 26px;
 }
 
+.airplane-icon {
+  
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 .tagline {
     padding: 210px 0 263px;
 }
@@ -409,16 +416,22 @@ a{ /*для всех ссылок*/
     border-radius: 10px;
     padding: 70px 32px;
 }
+
+.customers-cards__item:hover {
+    max-width: 392px;
+    border: 3px solid #232323;
+    background-color: #cfcece;
+    border-radius: 10px;
+    padding: 70px 32px;
+}
 .customers__icon {
-    padding: 0 0 20px 93px;
+    padding: 0 0 0 0;
 }
 
 .circle {
-    height: 130px;
-    width: 130px;
-    background-color: black;
-    border-radius: 50%;
-    padding: 30px 0 0 13px;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .customer__name {
@@ -442,12 +455,19 @@ a{ /*для всех ссылок*/
     height: 74px;
     left: -41px; 
     align-self: center;   
+    display:flex;
+    justify-content: center;
+    align-items: center; 
 }
+
+
+
 
 .customer-cards__lbtn:hover {
     width: 86px;
     height: 78px;
     left: -43px;
+    background-color: #cfcece;
 }
 
 .customer-cards__lbtn:active {
@@ -464,13 +484,17 @@ a{ /*для всех ссылок*/
     width: 82px;
     height: 74px;
     right: -41px; 
-    align-self: center;      
+    align-self: center;    
+    display:flex;
+    justify-content: center;
+    align-items: center;  
 }
 
 .customer-cards__rbtn:hover {
     width: 86px;
     height: 78px;
     right: -43px;
+    background-color: #cfcece;
 }
 
 .customer-cards__rbtn:active {
