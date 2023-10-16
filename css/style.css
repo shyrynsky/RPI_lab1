@@ -272,6 +272,13 @@ a{ /*для всех ссылок*/
     margin-bottom: 26px;
 }
 
+.airplane-icon {
+  
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 .tagline {
     padding: 210px 0 263px;
 }
@@ -409,8 +416,24 @@ a{ /*для всех ссылок*/
     border-radius: 10px;
     padding: 70px 32px;
 }
-.customers__icon {
+
+.customers-cards__item:hover {
+    max-width: 392px;
+    border: 3px solid #232323;
+    background-color: #cfcece;
+    border-radius: 10px;
+    padding: 70px 32px;
 }
+.customers__icon {
+    padding: 0 0 0 0;
+}
+
+.circle {
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 .customer__name {
     text-align: center;
     font-weight: 900;
@@ -432,12 +455,19 @@ a{ /*для всех ссылок*/
     height: 74px;
     left: -41px; 
     align-self: center;   
+    display:flex;
+    justify-content: center;
+    align-items: center; 
 }
+
+
+
 
 .customer-cards__lbtn:hover {
     width: 86px;
     height: 78px;
     left: -43px;
+    background-color: #cfcece;
 }
 
 .customer-cards__lbtn:active {
@@ -454,19 +484,99 @@ a{ /*для всех ссылок*/
     width: 82px;
     height: 74px;
     right: -41px; 
-    align-self: center;      
+    align-self: center;    
+    display:flex;
+    justify-content: center;
+    align-items: center;  
 }
 
 .customer-cards__rbtn:hover {
     width: 86px;
     height: 78px;
     right: -43px;
+    background-color: #cfcece;
 }
 
 .customer-cards__rbtn:active {
     width: 82px;
     height: 74px;
     right: -41px; 
+}
+
+.forms {
+    padding: 101px 0 195px;
+}
+
+.forms__inner {
+    display: flex;
+    height: 750px;
+}
+
+.forms-info {
+    width: 460px;
+}
+
+.forms-info__title {
+    font-size: 81.42px;
+    padding-bottom: 47px;
+    letter-spacing: 0.01em;
+}
+
+.form__input {
+    display: flex;
+    Flex-direction: column;
+    Justify-content: space-between;
+    height: 478px;
+}
+
+.form__input input {
+    font-size: 20.87px;
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    border: 3px solid #232323;
+    background: transparent;
+    border-radius: 7px;
+    height: 60px;
+    width: 100%;
+    padding-left: 28px;
+}
+
+.form__input textarea {
+    font-size: 20.87px;
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    border: 3px solid #232323;
+    background: transparent;
+    border-radius: 7px;
+    height: 226px;
+    width: 100%;
+    padding-left: 26px;
+    padding-top: 16px;
+}
+
+.form__btn {
+    font-size: 25.2px;
+    font-family: 'Lato', sans-serif;
+    color: #e9e7e7;
+    background-color: #232323;
+    padding: 21px 155px;
+    margin-top: 60px;
+    border-radius: 5px;
+    letter-spacing: 0.01em;
+}
+
+.form__btn:hover {
+    padding: 23px 155px;
+    margin-top: 58px;
+}
+
+.form__btn:active {
+    margin-top: 60px;
+    padding: 21px 155px;
+}
+
+.forms__image {
+    margin-left: auto;
 }
 
 .footer {
