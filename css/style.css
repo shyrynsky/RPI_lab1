@@ -322,17 +322,28 @@ a{ /*для всех ссылок*/
 }
 .gallery-info {
     display: flex;
-    margin-top: 75px;
+    margin-top: 65px;
 }
 .gallery-info__title {
-    min-width: 240px;
-    margin-right: 40px; 
+    /* min-width: 240px; */
+    max-width: 235px;
+    margin-left: 3px;
+    margin-right: 43px; 
     font-size: 36.34px;
     text-decoration: underline;
     line-height: 50px;
+    letter-spacing: 0.005em;
 }
 .gallery-info__paragraph {
     text-align: justify;
+    margin-top: 8px;
+    margin-right: 10px;
+    line-height: 1.18;
+    
+}
+
+.gallery-info__paragraph p:nth-child(2) {
+    text-indent: 0.4em;
 }
 
 .trip {
