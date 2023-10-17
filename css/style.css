@@ -335,6 +335,12 @@ a{ /*для всех ссылок*/
     text-align: justify;
 }
 
+.gallery_arrow {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
 .trip {
     padding: 155px 0 155px 155px;
     /* margin-top: 273px; */
@@ -406,7 +412,26 @@ a{ /*для всех ссылок*/
     line-height: 65px;
     padding-left: 40px;
     border-bottom: 3px solid #232323;
+    /* flex-direction: row; */
 }
+
+
+
+.rli__plus {
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.rli__plus:hover {
+    margin-left: 150px;
+    font-size: 46px;
+}
+
+.rli__plus:active {
+    margin-left: 150px;
+    font-size: 34px;
+}
+
 .reasons__image {
     margin-left: auto;
 }
