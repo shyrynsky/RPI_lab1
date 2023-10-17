@@ -1,0 +1,65 @@
+.memory{
+    height: 387px;
+    background-color: #232323;
+}
+
+.memory_container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #e9e7e7;
+    max-width: 439px;
+    padding-top: 50px;  
+    margin: 0 auto; 
+}
+
+.memory__title{
+    font-size: 55.46px;
+}
+
+.memory__paragraph{
+    margin-top: 20px;
+    margin-bottom: 31px; 
+    line-height: 20px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.memory__btn__shell {
+    height: 64px;
+}
+
+.memory__btn{
+    margin-top: 7px;
+    font-size: 20.83px;
+    font-weight: 900;
+    border: 3px solid  #e9e7e7;
+    color: #e9e7e7;
+    border-radius: 7px;
+    padding: 15px 60px;
+}
+
+.memory__btn:hover {
+    margin-top: 5px;
+    padding: 17px 62px;
+}
+
+.memory__btn:active {
+    padding: 15px 60px;
+    margin-top: 7px;
+}
+
+.scribble_memory_left {
+    position: relative;
+    left: 0px;
+    bottom: 406px;
+}
+
+.scribble_memory_right {
+    position: relative;
+    left: 944px;
+    bottom: 547px;
+}

@@ -1,0 +1,33 @@
+.header {
+    height: 150px;
+}
+
+.header_container {
+    display: flex; /*элементы идут в ряд (не в столбец, как все div)*/
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 75px;
+    padding-left: 112px;
+    padding-right: 112px;
+}
+
+.header__btn {
+    font-size: 20.83px;
+    font-weight: 900;
+    border: 3px solid #232323;
+    border-radius: 7px;
+    padding: 15.5px 56px;
+    margin-top: 1px;
+    margin-right: 19px;
+}
+
+.header__btn:hover {
+    margin-right: 17px;
+    padding: 17.5px 58px;
+}
+
+.header__btn:active {
+    background-color: #d2d2d2af;
+    margin-right: 19px;
+    padding: 15.5px 56px;
+}

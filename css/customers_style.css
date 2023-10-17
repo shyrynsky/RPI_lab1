@@ -1,0 +1,126 @@
+.customers {
+    height: 780px;
+}
+
+.customers_container {
+    padding-top: 186px;
+    padding-left: 112px;
+    padding-right: 112px;
+}
+
+.customers__title {
+    font-size: 81.46px;
+    max-width: 645px;
+    text-align: center;
+    margin: 0 auto 60px;
+}
+
+.customers-cards {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.customers-cards__item {
+    max-width: 392px;
+    border: 3px solid #232323;
+    border-radius: 10px;
+    padding: 70px 32px;
+}
+
+.customers-cards__item:hover {
+    max-width: 392px;
+    border: 3px solid #232323;
+    background-color: #cfcece;
+    border-radius: 10px;
+    padding: 70px 32px;
+}
+
+.customers__icon {
+    padding: 0 0 0 0;
+}
+
+.circle {
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.customer__name {
+    text-align: center;
+    font-weight: 900;
+    font-size: 24.99px;
+    margin-bottom: 22px;
+}
+
+.customer__info {
+    text-align: justify;
+    text-align-last: center;
+    color: #6d6d6d;
+}
+
+.customer-cards__lbtn {
+    position: absolute;
+    border: 3px solid #232323;
+    background-color: #e9e7e7;
+    border-radius: 10px;
+    width: 82px;
+    height: 74px;
+    left: -41px; 
+    align-self: center;   
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.customer-cards__lbtn:hover {
+    width: 86px;
+    height: 78px;
+    left: -43px;
+    background-color: #cfcece;
+}
+
+.customer-cards__lbtn:active {
+    width: 82px;
+    height: 74px;
+    left: -41px;
+}
+
+.customer-cards__rbtn {
+    position: absolute;
+    border: 3px solid #232323;
+    background-color: #e9e7e7;
+    border-radius: 10px;
+    width: 82px;
+    height: 74px;
+    right: -41px; 
+    align-self: center;    
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.customer-cards__rbtn:hover {
+    width: 86px;
+    height: 78px;
+    right: -43px;
+    background-color: #cfcece;
+}
+
+.customer-cards__rbtn:active {
+    width: 82px;
+    height: 74px;
+    right: -41px; 
+}
+
+.scribble_customers_left {
+    position: relative;
+    left: 0px;
+    bottom: 690px;
+}
+
+.scribble_customers_right {
+    position: relative;
+    left: 1008px;
+    bottom: 200px;
+}

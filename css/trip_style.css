@@ -1,0 +1,48 @@
+.trip {
+    height: 872px;
+    background-color: #232323;
+    color: #e9e7e7;
+}
+
+.trip_container {
+    padding-top: 154px;
+    padding-left: 120px;
+    flex-direction: row;
+}
+
+.trip_textblock {
+    max-width: 449px;
+}
+
+.trip-info {
+    max-width: 470px;
+    height: 562px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-info__title {
+    font-size: 55.44px;
+    margin-bottom: 114px;
+}
+
+.trip-info__box {
+    margin-top: auto;
+}
+
+.trip-info__textblock {
+    margin-bottom: 40px;
+}
+
+.textblock__subtitle {
+    font-size: 24.99px;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+
+/* подозреваю что картинка криво обрезана */
+.scribble_trip_left {
+    position: relative;
+    left: 0px;
+    bottom: -26px;
+}

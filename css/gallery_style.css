@@ -1,0 +1,43 @@
+.gallery {
+    height: 833px;
+}
+
+.gallery_container {
+    display: flex;
+    padding-top: 9px;
+    padding-left: 119px;
+    padding-right: 115px;
+}
+
+.gallery-image {
+    margin-right: 43px;
+}
+
+.gallery-info {
+    display: flex;
+    margin-top: 75px;
+}
+
+.gallery-info__title {
+    max-width: 240px;
+    margin-right: 40px;
+    font-size: 36.34px;
+    text-decoration: underline;
+    line-height: 50px;
+}
+
+.gallery-info__paragraph {
+    text-align: justify;
+}
+
+.scribble_gallery_left {
+    position: relative;
+    left: 0px;
+    bottom: 566px;
+}
+
+.arrow_right_gallery {
+    position: relative;
+    left: 1000px;
+    bottom: 500px;
+}

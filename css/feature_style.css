@@ -1,0 +1,50 @@
+.feature{
+    height: 900px;
+}
+
+.feature_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 165px;
+}
+
+.feature_item {
+    max-width: 364px;
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+.feature img{
+    margin: 0 auto;
+}
+
+.feature-item__line {
+    width: 53px;
+    height: 32px;
+    margin-bottom: 24.5px;
+    border-bottom: 3.5px solid #232323;    
+}
+
+.feature-item__paragraph {
+    text-align: justify;
+    line-height: 20px;
+}
+
+.feature-item__title {
+    font-size: 36.38px;
+    max-width: 240px;
+    margin-bottom: 26px;
+}
+
+.scribble_feature_left {
+    position: relative;
+    left: 0px;
+    bottom: 607px;
+}
+
+.scribble_feature_right {
+    position: relative;
+    left: 1333px;
+    bottom: 822px;
+}
