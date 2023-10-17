@@ -29,8 +29,14 @@
     margin-top: 60px;
 }
 
+.scribble_tagline_left {
+    position: relative;
+    left: 0px;
+    bottom: 0%;
+}
+
 .scribble_tagline_right {
     position: relative;
     left: 1080px;
-    bottom: 658px;
+    bottom: 824px;
 }

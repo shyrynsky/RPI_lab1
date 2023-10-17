@@ -7,11 +7,13 @@
 .trip_container {
     padding-top: 154px;
     padding-left: 120px;
+    display: flex;
     flex-direction: row;
 }
 
 .trip_textblock {
     max-width: 449px;
+    margin-right: 114px;
 }
 
 .trip-info {
@@ -45,4 +47,14 @@
     position: relative;
     left: 0px;
     bottom: -26px;
+}
+
+.trip_image_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.trip_image {
+    width: 740px;
+    height: 560px;
 }

@@ -38,3 +38,21 @@
 .reasons__image {
     margin-left: auto;
 }
+
+.rli__plus {
+    margin-left: auto;
+    margin-right: 48px;
+    font-size: 40px;
+}
+
+.rli__plus:hover {
+    margin-left: auto;
+    margin-right: 46px;
+    font-size: 46px;
+}
+
+.rli__plus:active {
+    margin-left: auto;
+    margin-right: 48px;
+    font-size: 40px;
+}
