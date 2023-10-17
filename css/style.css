@@ -347,7 +347,7 @@ a{ /*для всех ссылок*/
 }
 
 .trip {
-    padding: 155px 0 155px 155px;
+    padding: 155px 0 155px 105px;
     /* margin-top: 273px; */
     /* margin-left: -100px; */
     background-color: #232323;
@@ -364,17 +364,21 @@ a{ /*для всех ссылок*/
 
 .trip-info {
     max-width: 470px;
-    height: 562px;
+    height: 565px;
     display: flex;
     flex-direction: column;
 }
 .trip-info__title {
     font-size: 55.44px;
+    letter-spacing: 0.01em;
     /* margin-bottom: 112px; */
 }
 
 .trip-info__box {
     margin-top: auto;
+    line-height: 1.14;
+    margin-right: 20px;
+    letter-spacing: -0.04em;
 }
 
 .trip-info__textblock {
@@ -385,6 +389,10 @@ a{ /*для всех ссылок*/
     font-size: 24.99px;
     font-weight: 900;
     margin-bottom: 18px;
+}
+
+.textblock__paragraph {
+    text-align: justify;
 }
 
 .reasons {
