@@ -479,11 +479,7 @@ a{ /*для всех ссылок*/
 }
 
 .customers-cards__item:hover {
-    max-width: 392px;
-    border: 3px solid #232323;
     background-color: #cfcece;
-    border-radius: 10px;
-    padding: 70px 32px;
 }
 .customers__icon {
     padding: 0 0 0 0;
@@ -605,6 +601,7 @@ a{ /*для всех ссылок*/
 }
 
 .form__input textarea {
+    resize: none;
     font-size: 20.87px;
     font-family: 'Lato', sans-serif;
     color: #000000;
