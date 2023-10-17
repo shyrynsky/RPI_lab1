@@ -350,6 +350,7 @@ a{ /*для всех ссылок*/
     display: flex;
     justify-content: right;
     align-items: center;
+    margin-top: 23px;
 }
 
 .trip {
@@ -402,7 +403,7 @@ a{ /*для всех ссылок*/
 }
 
 .reasons {
-    padding: 185px 0 185px;
+    padding: 174px 0 185px;
 }
 
 .reasons__inner {
@@ -417,6 +418,7 @@ a{ /*для всех ссылок*/
 }
 .reasons-info__title {
     font-size: 81.46px;
+    letter-spacing: 0.004em;
 }
 .reasons-list {
     margin-top: auto;
@@ -428,7 +430,7 @@ a{ /*для всех ссылок*/
 
 .reasons-list__item {
     display: flex;
-    line-height: 65px;
+    line-height: 63px;
     padding-left: 40px;
     border-bottom: 3px solid #232323;
     /* flex-direction: row; */
@@ -456,7 +458,7 @@ a{ /*для всех ссылок*/
 }
 
 .customers {
-    padding: 125px 0 102px;
+    padding: 125px 0 71px;
 }
 .customers__title {
     font-size: 81.46px;
@@ -470,10 +472,10 @@ a{ /*для всех ссылок*/
     position: relative;
 }
 .customers-cards__item {
-    max-width: 392px;
+    max-width: 393px;
     border: 3px solid #232323;
     border-radius: 10px;
-    padding: 70px 32px;
+    padding: 60px 39px;
 }
 
 .customers-cards__item:hover {
@@ -497,12 +499,15 @@ a{ /*для всех ссылок*/
     text-align: center;
     font-weight: 900;
     font-size: 24.99px;
-    margin-bottom: 22px;
+    margin-top: 26px;
+    margin-bottom: 19px;
 }
 .customer__info {
     text-align: justify;
     text-align-last: center;
     color: #6d6d6d;
+    line-height: 1.1;
+    margin-bottom: 9px;
 }
 
 .customer-cards__lbtn {
