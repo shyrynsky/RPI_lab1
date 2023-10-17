@@ -468,6 +468,7 @@ a{ /*для всех ссылок*/
     max-width: 645px;
     text-align: center;
     margin: 0 auto 60px;
+    letter-spacing: 0.01em;
 }
 .customers-cards {
     display: flex;
@@ -565,7 +566,7 @@ a{ /*для всех ссылок*/
 
 .forms {
     /* padding: 101px 0 195px; */
-    height: 935px;
+    height: 942px;
     margin-top: 128px;
 }
 
@@ -655,6 +656,7 @@ a{ /*для всех ссылок*/
     font-size: 63.34px;
     max-width: 244px;
     margin-right: 108px;
+    letter-spacing: 0.01em;
 }
 .footer-menu {
     flex: 1;
@@ -664,6 +666,11 @@ a{ /*для всех ссылок*/
     font-size: 25.04px;
     margin-bottom: 50px;
 }
+
+.footer-links__col {
+    width: 196px;
+}
+
 .footer-links {
     display: flex;
     justify-content: space-between;
@@ -675,7 +682,7 @@ a{ /*для всех ссылок*/
 
 .footer__list a{
     font-size: 20.86px;
-    margin-bottom: 34px; 
+    margin-bottom: 30px; 
 }
 
 .footer__list a:hover {
@@ -688,7 +695,7 @@ a{ /*для всех ссылок*/
 
 .footer__company {
     
-    margin-top: -120px;
+    margin-top: 92px;
     text-align: center;
     font-size: 20.86px;
 }
