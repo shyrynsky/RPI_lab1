@@ -439,18 +439,21 @@ a{ /*для всех ссылок*/
 
 
 .rli__plus {
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: 48px;
     font-size: 40px;
 }
 
 .rli__plus:hover {
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: 46px;
     font-size: 46px;
 }
 
 .rli__plus:active {
-    margin-left: 150px;
-    font-size: 34px;
+    margin-left: auto;
+    margin-right: 48px;
+    font-size: 40px;
 }
 
 .reasons__image {
