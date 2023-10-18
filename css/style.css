@@ -324,6 +324,7 @@ a{ /*для всех ссылок*/
     font-size: 36.38px;
     max-width: 240px;
     margin-bottom: 26px;
+    letter-spacing: 0.01em;
 }
 
 .airplane-icon {
@@ -771,11 +772,11 @@ a{ /*для всех ссылок*/
 
 .form__btn:hover {
     padding: 23px 155px;
-    margin-top: 58px;
+    margin-top: 55px;
 }
 
 .form__btn:active {
-    margin-top: 60px;
+    margin-top: 57px;
     padding: 21px 155px;
 }
 
