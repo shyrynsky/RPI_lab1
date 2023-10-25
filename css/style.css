@@ -158,6 +158,17 @@ a{ /*для всех ссылок*/
     /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 }
 
+.scribble_top_left {
+    position: relative;
+     bottom: 374px; 
+}
+
+.scribble_top_right {
+    position: relative;
+     bottom: 724px;
+    left: 1182px; 
+}
+
 /* .top-image img {
     margin: 0 0 0 auto;
 } */
@@ -231,6 +242,15 @@ a{ /*для всех ссылок*/
     left: 0;
     top: -65px;   
 }    
+
+
+.scribble_memory_right {
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    left: 0px;
+    bottom: 0px;
+}
 
 .feature__items{
     padding-left: 6px;
